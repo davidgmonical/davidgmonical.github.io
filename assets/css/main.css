@@ -1593,6 +1593,16 @@
 		text-align: right;
 	}
 
+	.float-right {
+		float: right;
+	}
+
+	.inline {
+		font-size: 1.0em;
+		line-height: 1.5em;
+		display: inline;
+	}
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -1968,8 +1978,8 @@
 			}
 
 		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
+			display: inline-block;
+			margin: 0 0 4em 0;
 			width: 100%;
 		}
 
@@ -2638,6 +2648,9 @@
 
 		.wrapper.alt {
 			padding: 0;
+		}
+		.wrapper.stylelandscape{
+			background-image: url(../../images/pics/20170211-DSC_0018.jpg)
 		}
 
 		.wrapper.style1 {
