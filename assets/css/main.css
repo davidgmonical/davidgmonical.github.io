@@ -1471,6 +1471,10 @@
 		margin: 0 0 2em 0;
 	}
 
+	.colored {
+		color: #2e3842;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 		font-weight: 800;
