@@ -23,4 +23,13 @@ jQuery(document).ready(function($){
 			( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
 		});
 	}
+	$(".cd-read-more").click(function() {
+		$(this).prev().slideToggle().toggleClass('active');
+		if ($(this).prev().hasClass('active')) {
+    		$(this).text('Read more');
+  		} else {
+    		$(this).text('Read less');
+  		}
+	});
+	$('.content').slideToggle().toggleClass('active');
 });
